@@ -27,6 +27,9 @@ var __rest = (this && this.__rest) || function (s, e) {
     };
     printName(names);
     printName2(names);
+    const namesArr = ['Raul', 'Saul', 'Boul'];
+    const namesArr2 = ['Raul', false, 147.5111];
+    const [ral, blou, numero] = namesArr2;
 })();
 (() => {
     const name = 'Blez';
