@@ -8,6 +8,9 @@
     let vaxx = {
         name: 'MAd Max',
         age: 31,
-        skills: ['str', 'agi']
+        skills: ['str', 'agi'],
+        getName() {
+            return this.name;
+        }
     };
 })();
