@@ -26,8 +26,8 @@
     console.log( blez, resto )
   }
 
-  printName(names)
-  printName2(names)
+  //printName(names)
+  //printName2(names)
 
   const namesArr: string[] = ['Raul','Saul','Boul']
   const namesArr2: [ string, boolean, number ] = ['Raul', false, 147.5111]
