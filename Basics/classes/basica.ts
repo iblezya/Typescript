@@ -22,9 +22,9 @@
 
   }
 
-  const slark: Hero = new Hero( 'Slark', 'Dire', 5000 );
-  console.log( slark )
-  console.log( slark.bio() )
-  console.log( Hero.getNameClass() )
+  // const slark: Hero = new Hero( 'Slark', 'Dire', 5000 );
+  // console.log( slark )
+  // console.log( slark.bio() )
+  // console.log( Hero.getNameClass() )
 
 })()
