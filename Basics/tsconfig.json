@@ -102,6 +102,6 @@
     "example_mod"
   ],
   "include": [
-    "ES6"
+    "classes"
   ]
 }
