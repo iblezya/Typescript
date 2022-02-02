@@ -2,16 +2,16 @@
 
   class Hero {
     
-    private name: string;
-    public team: string;
-    public power: number;
+    //private name: string;
+    //public team: string;
+    //public power: number;
     static avgAge: number = 40;
 
-    constructor( name: string, team: string, power: number ) {
-      this.name = name;
-      this.team = team;
-      this.power = power;
-    }
+    constructor( 
+      private name: string, 
+      private team: string, 
+      public power?: number 
+    ) {}
 
   }
 
