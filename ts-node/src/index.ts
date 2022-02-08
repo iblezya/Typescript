@@ -1,13 +1,9 @@
-import { Hero } from './classes/Hero';
-//import { Hero as SuperHero, Hero2 } from './classes/Hero';
-// import * as HeroClasses from './classes/Hero'
-// import powers from './data/powers'; // export default
+import { printObject, generciFunction } from './generics/generics';
 
 
-// const slark = new SuperHero('Slark',1,30)
-const slark = new Hero('Slark',1,30);
+// printObject('Hola crags');
+// printObject(new Date());
+// printObject( {A:1, B:2, C:3} )
 
-// console.log(slark);
-// console.log(slark.power);
-
-
+console.log( generciFunction(3.1416).toFixed(2) )
+console.log( generciFunction( new Date() ).toFixed(2) )
