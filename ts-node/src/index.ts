@@ -1,7 +1,7 @@
-import { getPokemon } from './generics/get-pokemon';
+import { Pokemon } from "./decorators/pokemon-class";
 
+const chamander = new Pokemon('Charmander');
 
-getPokemon (1)
-  .then ( pokemon => console.log( pokemon.sprites.front_shiny ) )
-  .catch( error => console.error( error ) )
-  .finally( () => console.log('Fin de getPokemon') )
+// (Pokemon.prototype as any).customName = 'Pompinchu'
+chamander.publicApi = 'https://youtube.com';
+console.log(chamander);
